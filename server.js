@@ -31,7 +31,7 @@ app.use('/', routes);
 var connectionString;
 
 if (process.env.PORT) {
-    connectionString = 'mongodb://admin:A2BQjbxx4Zru2FYn4YNg@ds163679.mlab.com:63679/heroku_wfjj6z28';
+    connectionString = ' mongodb://heroku_l1sfhq6f:l8qjrksna8p8gjq44slb5or1i9@ds121464.mlab.com:21464/heroku_l1sfhq6f';
 } else {
     connectionString = 'mongodb://localhost/nytreact';
 }

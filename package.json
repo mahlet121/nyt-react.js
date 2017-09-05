@@ -1,6 +1,9 @@
 {
   "name": "nyt-react.js",
   "version": "1.0.0",
+   "engines": {
+    "npm": "2.1.x"
+  },
   "description": "A React.js-based New York Times archive exploration tool.",
   "main": "server.js",
   "dependencies": {

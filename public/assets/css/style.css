@@ -1,0 +1,212 @@
+html {
+    position: relative;
+    min-height: 100%;
+    text-align: center;
+}
+
+body {
+
+   background: linear-gradient(
+                     rgba(30,30,30, .5), 
+                     rgba(30,30,30, .5)),
+
+     url('../img/groovepaper/new.jfif');
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  background-color: #fff;
+}
+
+.page-header,
+footer {
+    margin: 0;
+    background: #106d77;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.14), 0 -1px 5px 0 rgba(0,0,0,0.12), 0 -3px 1px -2px rgba(0,0,0,0.2);
+}
+
+footer .container {
+    height: 61px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.result-div {
+    background: #D3BCCC url('../img/groovepaper/groovepaper_@2X.png');
+    padding: 0;
+}
+.panel-heading{
+    border-style: solid;
+    border-color: #106d77;
+        width: 71% !important;
+    margin-left: 182px !important;
+    background-color: #106d77;
+    color: #fff;
+    margin-bottom:-20px;
+}
+.result-div,
+.result-holder,
+.query {
+
+    color: #fff;
+    border-radius: 7px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+.result-holder,
+ {
+    background:#106d77;
+    padding: 8px;
+}
+h3,h2,h4,h1{
+    font-family: "Times New Roman", Times, serif;
+}
+.query{
+
+    background-color: #fff;
+    border-style: solid;
+    border-color: #106d77;
+}
+label{
+    color: #000;
+}
+.form-control {
+    margin: 20px auto;
+    padding: 8px;
+    width: 90%;
+    max-width: 900px;
+}
+
+footer a,
+.page-header a {
+    color: #fff;
+}
+.savedlink{
+    float: right;
+    margin-top: 27px;
+
+}
+.searchlink{
+    float: left;
+    margin-top: 27px;
+    margin-left: 200px;
+}
+.maintitle{
+
+    font-size: 60px;
+    color: #fff;
+}
+.btn-info{
+     border-radius: 12px;
+    height: 50px !important;
+    width: 230px;
+    background-color: #000;
+}
+.col-xs-12 col-sm-6 header-links{
+   text-align: center;
+}
+.panels {
+    height: 50vh;
+    max-height: 500px;
+    min-height: 100px;
+    font-family: "Times New Roman", Times, serif;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection-panel {
+    font-family: "Times New Roman", Times, serif;
+    height: 45vh;
+    max-height: 480px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 35px;
+    margin: 7px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.search-button {
+    width: 100px;
+}
+
+.header-links {
+    color: #fff;
+    text-align: right;
+    padding: 0;
+}
+
+.title {
+    text-align: left;
+    padding: 0;
+}
+
+.page-header .container {
+    padding: 0;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.black-text {
+    color: black !important;
+}
+
+.page-header {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: none;
+}
+
+/*mobile Query*/
+@media only screen and (max-width: 640px) {
+ .maintitle{
+    font-size: 30px;
+ }
+ h2{
+    font-size: 20px;
+ }
+ .selection-panel{
+    font-size: 30px;
+    width: 100px;
+    max-height: 50px;
+    min-height: 50px;
+ }
+ .page-header h4 a{
+  float: left;
+  margin-top: 30px;
+ }
+ .panel-heading{
+    
+    width: 373px;
+    margin-left: 20px;
+    margin-right: 500px;
+ }
+  }
+@media only screen and (min-width: 1030px) {
+    .panel-heading{
+      width: 71% !important;
+    margin-left: 182px !important;
+}
+}

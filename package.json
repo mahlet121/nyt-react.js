@@ -1,28 +1,38 @@
 {
-  "name": "nyt-react.js.git",
+  "name": "nyt-react.js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A React.js-based New York Times archive exploration tool.",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-router": "^0.0.1",
+    "mongoose": "^4.8.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
+    "react-scripts": "^0.9.2",
+    "request": "^2.79.0",
+    "serve-favicon": "^2.4.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "webpack -w & node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahlet121/nyt-react.js.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "Mahlet",
+  "license": "",
   "bugs": {
     "url": "https://github.com/mahlet121/nyt-react.js.git/issues"
   },
-  "homepage": "https://github.com/mahlet121/nyt-react.js.git.#readme",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "cheerio": "^1.0.0-rc.2",
-    "express": "4.15.4",
-    "express-handlebars": "^3.0.0",
-    "mongoose": "^4.11.7",
-    "morgan": "^1.8.2",
-    "request": "^2.81.0"
-  }
+  "homepage": "https://github.com/mahlet121/nyt-react.#readme"
 }

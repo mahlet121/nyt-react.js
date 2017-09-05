@@ -1,1 +1,1 @@
-# nyt-react.js
+# nyt-react.js  scrap data from newyork times and save to database
